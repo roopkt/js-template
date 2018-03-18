@@ -1,0 +1,20 @@
+<mat-grid-list cols="1" rowHeight="6:1">
+    <mat-grid-tile>
+        <mat-card>
+            <mat-card-title>
+                Welcome To Angular Autonomous Component Example App
+            </mat-card-title>
+            <mat-card-content>
+                <mat-list>
+                    <h2 mat-subheader>Select any one option: </h2>
+                    <mat-list-item *ngFor="let comp of components">
+                        <button mat-button color="accent" [routerLink]="comp.path">{{comp.name}}</button>
+                    </mat-list-item>
+                </mat-list>
+            </mat-card-content>
+        </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <router-outlet></router-outlet>
+    </mat-grid-tile>
+</mat-grid-list>

@@ -1,0 +1,6 @@
+<button (click)="showSpinner$.next(true)" mat-raised-button color="primary">
+    Show Spinner</button>
+<button (click)="showSpinner$.next(false)" mat-raised-button color="warn">Hide Spinner</button>
+
+<ui-spinner [show]="showSpinner$|async">
+</ui-spinner>

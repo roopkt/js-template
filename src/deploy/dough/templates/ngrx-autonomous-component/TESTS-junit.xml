@@ -1,0 +1,32 @@
+<testsuites name="lib tests" tests="10" failures="0" time="17.896">
+  <testsuite name="AssignCentersEffect" errors="0" failures="0" skipped="1" timestamp="2018-02-26T17:43:13" time="14.812" tests="1">
+    <testcase classname="AssignCentersEffect addProduct$ should return a AddProductSuccess action on success" name="AssignCentersEffect addProduct$ should return a AddProductSuccess action on success" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="Add Product Page" errors="0" failures="0" skipped="1" timestamp="2018-02-26T17:43:28" time="2.722" tests="1">
+    <testcase classname="Add Product Page should compile" name="Add Product Page should compile" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="CenterDetail" errors="0" failures="0" skipped="0" timestamp="2018-02-26T17:43:31" time="0.202" tests="7">
+    <testcase classname="CenterDetail Action undefined action should return the default state" name="CenterDetail Action undefined action should return the default state" time="0.003">
+    </testcase>
+    <testcase classname="CenterDetail Action ADD Should return the state with loading true" name="CenterDetail Action ADD Should return the state with loading true" time="0.006">
+    </testcase>
+    <testcase classname="CenterDetail Action ADD_SUCCESS Should return the state with loading false" name="CenterDetail Action ADD_SUCCESS Should return the state with loading false" time="0.002">
+    </testcase>
+    <testcase classname="CenterDetail Action ADD_ERROR Should return the state with loading false" name="CenterDetail Action ADD_ERROR Should return the state with loading false" time="0.002">
+    </testcase>
+    <testcase classname="CenterDetail Query isLoading should return loading status" name="CenterDetail Query isLoading should return loading status" time="0.002">
+    </testcase>
+    <testcase classname="CenterDetail Query isFormValid should return false" name="CenterDetail Query isFormValid should return false" time="0.002">
+    </testcase>
+    <testcase classname="CenterDetail Query isFormValid should return true" name="CenterDetail Query isFormValid should return true" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="UtilTest" errors="0" failures="0" skipped="0" timestamp="2018-02-26T17:43:31" time="0.16" tests="1">
+    <testcase classname="UtilTest can check for null in lib project" name="UtilTest can check for null in lib project" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>
