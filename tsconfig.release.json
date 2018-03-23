@@ -9,12 +9,14 @@
     "removeComments": true
   },
   "include": [
-    "src/**/*"
+    "./build/**/*",
+    "./clis/**/*",
+    "./utils/**/*"
   ],
   "exclude": [
     "node_modules",
     "dist",
     "**/*.spec.ts",
-    "./src/deploy/**/*"
+    "./templates/**/*"
   ]
 }

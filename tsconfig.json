@@ -20,11 +20,13 @@
     "declaration": true
   },
   "include": [
-    "src/**/*",
-    "src/**/*.spec"
+    "./build/**/*",
+    "./clis/**/*",
+    "./utils/**/*",
+    "**/*.spec.ts"
   ],
   "exclude": [
-    "./src/deploy/**/*",
+    "./templates/**/*",
     "dist",
     "node_modules"
   ]
